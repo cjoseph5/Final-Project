@@ -13,6 +13,7 @@ struct ContentView: View {
             .padding()
         Text("New Change")
         Text("Commit")
+        Text("checking how to commit and backup")
     }
 }
 
