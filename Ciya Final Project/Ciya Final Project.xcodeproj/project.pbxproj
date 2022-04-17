@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A47032502809FAFF00764DA4 /* Ciya_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470324F2809FAFF00764DA4 /* Ciya_Final_ProjectApp.swift */; };
+		A47032522809FAFF00764DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47032512809FAFF00764DA4 /* ContentView.swift */; };
+		A47032542809FB0100764DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47032532809FB0100764DA4 /* Assets.xcassets */; };
+		A47032572809FB0100764DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47032562809FB0100764DA4 /* Preview Assets.xcassets */; };
+		A47032612809FB0100764DA4 /* Ciya_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47032602809FB0100764DA4 /* Ciya_Final_ProjectTests.swift */; };
+		A470326B2809FB0100764DA4 /* Ciya_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470326A2809FB0100764DA4 /* Ciya_Final_ProjectUITests.swift */; };
+		A470326D2809FB0100764DA4 /* Ciya_Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470326C2809FB0100764DA4 /* Ciya_Final_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A470325D2809FB0100764DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47032442809FAFF00764DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A470324B2809FAFF00764DA4;
+			remoteInfo = "Ciya Final Project";
+		};
+		A47032672809FB0100764DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47032442809FAFF00764DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A470324B2809FAFF00764DA4;
+			remoteInfo = "Ciya Final Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A470324C2809FAFF00764DA4 /* Ciya Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ciya Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A470324F2809FAFF00764DA4 /* Ciya_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ciya_Final_ProjectApp.swift; sourceTree = "<group>"; };
+		A47032512809FAFF00764DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Ciya Final Project/ContentView.swift"; sourceTree = SOURCE_ROOT; };
+		A47032532809FB0100764DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A47032562809FB0100764DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A470325C2809FB0100764DA4 /* Ciya Final ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ciya Final ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47032602809FB0100764DA4 /* Ciya_Final_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ciya_Final_ProjectTests.swift; sourceTree = "<group>"; };
+		A47032662809FB0100764DA4 /* Ciya Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ciya Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A470326A2809FB0100764DA4 /* Ciya_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ciya_Final_ProjectUITests.swift; sourceTree = "<group>"; };
+		A470326C2809FB0100764DA4 /* Ciya_Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ciya_Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47032492809FAFF00764DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47032592809FB0100764DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47032632809FB0100764DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A47032432809FAFF00764DA4 = {
+			isa = PBXGroup;
+			children = (
+				A470324E2809FAFF00764DA4 /* Ciya Final Project */,
+				A470325F2809FB0100764DA4 /* Ciya Final ProjectTests */,
+				A47032692809FB0100764DA4 /* Ciya Final ProjectUITests */,
+				A470324D2809FAFF00764DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A470324D2809FAFF00764DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A470324C2809FAFF00764DA4 /* Ciya Final Project.app */,
+				A470325C2809FB0100764DA4 /* Ciya Final ProjectTests.xctest */,
+				A47032662809FB0100764DA4 /* Ciya Final ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A470324E2809FAFF00764DA4 /* Ciya Final Project */ = {
+			isa = PBXGroup;
+			children = (
+				A470324F2809FAFF00764DA4 /* Ciya_Final_ProjectApp.swift */,
+				A47032512809FAFF00764DA4 /* ContentView.swift */,
+				A47032532809FB0100764DA4 /* Assets.xcassets */,
+				A47032552809FB0100764DA4 /* Preview Content */,
+			);
+			path = "Ciya Final Project";
+			sourceTree = "<group>";
+		};
+		A47032552809FB0100764DA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A47032562809FB0100764DA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A470325F2809FB0100764DA4 /* Ciya Final ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A47032602809FB0100764DA4 /* Ciya_Final_ProjectTests.swift */,
+			);
+			path = "Ciya Final ProjectTests";
+			sourceTree = "<group>";
+		};
+		A47032692809FB0100764DA4 /* Ciya Final ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A470326A2809FB0100764DA4 /* Ciya_Final_ProjectUITests.swift */,
+				A470326C2809FB0100764DA4 /* Ciya_Final_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "Ciya Final ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A470324B2809FAFF00764DA4 /* Ciya Final Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47032702809FB0100764DA4 /* Build configuration list for PBXNativeTarget "Ciya Final Project" */;
+			buildPhases = (
+				A47032482809FAFF00764DA4 /* Sources */,
+				A47032492809FAFF00764DA4 /* Frameworks */,
+				A470324A2809FAFF00764DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ciya Final Project";
+			productName = "Ciya Final Project";
+			productReference = A470324C2809FAFF00764DA4 /* Ciya Final Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A470325B2809FB0100764DA4 /* Ciya Final ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47032732809FB0100764DA4 /* Build configuration list for PBXNativeTarget "Ciya Final ProjectTests" */;
+			buildPhases = (
+				A47032582809FB0100764DA4 /* Sources */,
+				A47032592809FB0100764DA4 /* Frameworks */,
+				A470325A2809FB0100764DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A470325E2809FB0100764DA4 /* PBXTargetDependency */,
+			);
+			name = "Ciya Final ProjectTests";
+			productName = "Ciya Final ProjectTests";
+			productReference = A470325C2809FB0100764DA4 /* Ciya Final ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A47032652809FB0100764DA4 /* Ciya Final ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47032762809FB0100764DA4 /* Build configuration list for PBXNativeTarget "Ciya Final ProjectUITests" */;
+			buildPhases = (
+				A47032622809FB0100764DA4 /* Sources */,
+				A47032632809FB0100764DA4 /* Frameworks */,
+				A47032642809FB0100764DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47032682809FB0100764DA4 /* PBXTargetDependency */,
+			);
+			name = "Ciya Final ProjectUITests";
+			productName = "Ciya Final ProjectUITests";
+			productReference = A47032662809FB0100764DA4 /* Ciya Final ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47032442809FAFF00764DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A470324B2809FAFF00764DA4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					A470325B2809FB0100764DA4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A470324B2809FAFF00764DA4;
+					};
+					A47032652809FB0100764DA4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A470324B2809FAFF00764DA4;
+					};
+				};
+			};
+			buildConfigurationList = A47032472809FAFF00764DA4 /* Build configuration list for PBXProject "Ciya Final Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A47032432809FAFF00764DA4;
+			productRefGroup = A470324D2809FAFF00764DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A470324B2809FAFF00764DA4 /* Ciya Final Project */,
+				A470325B2809FB0100764DA4 /* Ciya Final ProjectTests */,
+				A47032652809FB0100764DA4 /* Ciya Final ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A470324A2809FAFF00764DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47032572809FB0100764DA4 /* Preview Assets.xcassets in Resources */,
+				A47032542809FB0100764DA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470325A2809FB0100764DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47032642809FB0100764DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47032482809FAFF00764DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47032522809FAFF00764DA4 /* ContentView.swift in Sources */,
+				A47032502809FAFF00764DA4 /* Ciya_Final_ProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47032582809FB0100764DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47032612809FB0100764DA4 /* Ciya_Final_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47032622809FB0100764DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470326B2809FB0100764DA4 /* Ciya_Final_ProjectUITests.swift in Sources */,
+				A470326D2809FB0100764DA4 /* Ciya_Final_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A470325E2809FB0100764DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A470324B2809FAFF00764DA4 /* Ciya Final Project */;
+			targetProxy = A470325D2809FB0100764DA4 /* PBXContainerItemProxy */;
+		};
+		A47032682809FB0100764DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A470324B2809FAFF00764DA4 /* Ciya Final Project */;
+			targetProxy = A47032672809FB0100764DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A470326E2809FB0100764DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A470326F2809FB0100764DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A47032712809FB0100764DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ciya Final Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 68A97LHPP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CiyaJoseph.Ciya-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A47032722809FB0100764DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ciya Final Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 68A97LHPP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CiyaJoseph.Ciya-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A47032742809FB0100764DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68A97LHPP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CiyaJoseph.Ciya-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ciya Final Project.app/Ciya Final Project";
+			};
+			name = Debug;
+		};
+		A47032752809FB0100764DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68A97LHPP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CiyaJoseph.Ciya-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ciya Final Project.app/Ciya Final Project";
+			};
+			name = Release;
+		};
+		A47032772809FB0100764DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68A97LHPP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CiyaJoseph.Ciya-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ciya Final Project";
+			};
+			name = Debug;
+		};
+		A47032782809FB0100764DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68A97LHPP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CiyaJoseph.Ciya-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ciya Final Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47032472809FAFF00764DA4 /* Build configuration list for PBXProject "Ciya Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A470326E2809FB0100764DA4 /* Debug */,
+				A470326F2809FB0100764DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47032702809FB0100764DA4 /* Build configuration list for PBXNativeTarget "Ciya Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47032712809FB0100764DA4 /* Debug */,
+				A47032722809FB0100764DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47032732809FB0100764DA4 /* Build configuration list for PBXNativeTarget "Ciya Final ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47032742809FB0100764DA4 /* Debug */,
+				A47032752809FB0100764DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47032762809FB0100764DA4 /* Build configuration list for PBXNativeTarget "Ciya Final ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47032772809FB0100764DA4 /* Debug */,
+				A47032782809FB0100764DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A47032442809FAFF00764DA4 /* Project object */;
+}
