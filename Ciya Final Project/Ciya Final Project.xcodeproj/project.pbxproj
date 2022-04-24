@@ -14,6 +14,7 @@
 		A47032612809FB0100764DA4 /* Ciya_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47032602809FB0100764DA4 /* Ciya_Final_ProjectTests.swift */; };
 		A470326B2809FB0100764DA4 /* Ciya_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470326A2809FB0100764DA4 /* Ciya_Final_ProjectUITests.swift */; };
 		A470326D2809FB0100764DA4 /* Ciya_Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470326C2809FB0100764DA4 /* Ciya_Final_ProjectUITestsLaunchTests.swift */; };
+		A48AC3C0281206D500257949 /* StocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48AC3BF281206D500257949 /* StocksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A47032662809FB0100764DA4 /* Ciya Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ciya Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A470326A2809FB0100764DA4 /* Ciya_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ciya_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		A470326C2809FB0100764DA4 /* Ciya_Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ciya_Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A48AC3BF281206D500257949 /* StocksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				A470324E2809FAFF00764DA4 /* Ciya Final Project */,
-				A470325F2809FB0100764DA4 /* Ciya Final ProjectTests */,
 				A47032692809FB0100764DA4 /* Ciya Final ProjectUITests */,
 				A470324D2809FAFF00764DA4 /* Products */,
 			);
@@ -96,6 +97,8 @@
 			children = (
 				A470324F2809FAFF00764DA4 /* Ciya_Final_ProjectApp.swift */,
 				A47032512809FAFF00764DA4 /* ContentView.swift */,
+				A48AC3BF281206D500257949 /* StocksView.swift */,
+				A470325F2809FB0100764DA4 /* Ciya Final ProjectTests */,
 				A47032532809FB0100764DA4 /* Assets.xcassets */,
 				A47032552809FB0100764DA4 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48AC3C0281206D500257949 /* StocksView.swift in Sources */,
 				A47032522809FAFF00764DA4 /* ContentView.swift in Sources */,
 				A47032502809FAFF00764DA4 /* Ciya_Final_ProjectApp.swift in Sources */,
 			);
