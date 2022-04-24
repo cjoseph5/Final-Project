@@ -25,8 +25,9 @@ struct StockRow: View {
                 VStack(alignment: .leading) {
                     Spacer()
                     Text(stockCell.abrv)
+                        .font(.system(size:20, weight: .bold))
                     Text(stockCell.company).font(.subheadline).foregroundColor(.gray)
-                        .frame(width: 100, height: 20, alignment: .center)
+                        .frame(width: 100, height: 10, alignment: .center)
                 }
                 Spacer()
             Image(stockCell.graph)
